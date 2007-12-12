@@ -12,7 +12,7 @@ Source: 	%{name}-%{version}.tar.bz2
 URL: 		http://www.lcdf.org/gifsicle
 BuildRoot: 	%_tmppath/%name-buildroot
 
-BuildRequires: XFree86-devel
+BuildRequires: X11-devel
 
 %description
 Gifsicle manipulates GIF image files on the
