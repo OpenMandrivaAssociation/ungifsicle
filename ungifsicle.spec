@@ -10,7 +10,6 @@ Group: 		Graphics
 License: 	GPL
 Source: 	%{name}-%{version}.tar.bz2
 URL: 		http://www.lcdf.org/gifsicle
-BuildRoot: 	%_tmppath/%name-buildroot
 
 BuildRequires: X11-devel
 
