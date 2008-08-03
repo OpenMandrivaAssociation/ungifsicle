@@ -1,6 +1,6 @@
 %define name	ungifsicle
 %define	version 1.42
-%define release	%mkrel 3
+%define release	%mkrel 4
 
 Summary: 	Powerful program for manipulating GIF images and animations
 Name: 		%{name}
