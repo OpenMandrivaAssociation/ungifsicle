@@ -1,12 +1,12 @@
 Summary: 	Powerful program for manipulating GIF images and animations
 Name: 		ungifsicle
 Version: 	1.58
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group: 		Graphics
 License: 	GPLv2
 URL: 		http://www.lcdf.org/gifsicle
 Source0: 	http://www.lcdf.org/gifsicle/%{name}-%{version}.tar.gz
-BuildRequires:	X11-devel
+BuildRequires:	libx11-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
@@ -29,14 +29,12 @@ Those programs don't use LZW compression to avoid patent problems
 touch `find . -type f`
 
 %build
-%configure --enable-ungif
+%configure2_5x --enable-ungif
 %make
 
 %install
 rm -rf %{buildroot}
-
-%makeinstall
-
+%makeinstall_std
 
 %clean
 rm -rf %{buildroot}
