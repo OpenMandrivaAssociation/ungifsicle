@@ -1,13 +1,12 @@
 Summary: 	Powerful program for manipulating GIF images and animations
 Name: 		ungifsicle
 Version: 	1.58
-Release:	%mkrel 3
+Release:	4
 Group: 		Graphics
 License: 	GPLv2
 URL: 		http://www.lcdf.org/gifsicle
 Source0: 	http://www.lcdf.org/gifsicle/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(x11)
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Gifsicle manipulates GIF image files on the command line. It supports merging
