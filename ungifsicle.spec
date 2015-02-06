@@ -1,7 +1,7 @@
 Summary: 	Powerful program for manipulating GIF images and animations
 Name: 		ungifsicle
 Version: 	1.58
-Release:	4
+Release:	5
 Group: 		Graphics
 License: 	GPLv2
 URL: 		http://www.lcdf.org/gifsicle
