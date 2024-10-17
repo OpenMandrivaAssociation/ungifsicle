@@ -4,7 +4,7 @@ Version: 	1.58
 Release:	5
 Group: 		Graphics
 License: 	GPLv2
-URL: 		http://www.lcdf.org/gifsicle
+URL: 		https://www.lcdf.org/gifsicle
 Source0: 	http://www.lcdf.org/gifsicle/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(x11)
 
